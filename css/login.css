@@ -1,0 +1,13 @@
+main {
+  background-color: rgb(132, 233, 132);
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+img {
+  width: 8%;
+  height: auto;
+}
