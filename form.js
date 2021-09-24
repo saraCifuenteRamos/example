@@ -13,6 +13,8 @@ formulario.onsubmit = (e) => {
   console.log(validation); // Muestra en consola el valor de Validation
 };
 
+function checkUsername(valor) {}
+
 //Function checkContrasena para validar el valor del input de contraseña
 function checkContrasena(valor) {
   //Valor, argumento que recibe el parametro enviado desde  la linea 12
@@ -63,3 +65,4 @@ function checkContrasena(valor) {
 }
 
 module.exports = checkContrasena;
+module.exports = checkUsername;
