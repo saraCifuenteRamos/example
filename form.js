@@ -1,5 +1,6 @@
 var password = document.getElementById("contraseña"); // Variable para almacenar el input con ID contraseña
 var formulario = document.getElementById("form-registro"); // Variable para almacenar el formulario con ID form-registro
+var name = document.getElementById("user-name");
 var result = ""; // Variable para almacenar el codigo ASCII de cada caracter
 var character = ""; // Variable para almacenar caracteres individuales
 var mayus = false; // Variable booleana para indicar si existe una mayuscula
@@ -9,8 +10,10 @@ var minus = false; // Variable booleana para indicar si existe una minuscula
 formulario.onsubmit = (e) => {
   //Evento onsubmit que ocurre al presionar el boton
   e.preventDefault(); // preventDefault() es la funcion que evita el comportamiento por defecto del formulario
-  var validation = checkContrasena(password.value); //Validation, variable booleana para recibir la validacion de la contraseña
-  console.log(validation); // Muestra en consola el valor de Validation
+  var validacionName = checkUsername(name.value);
+  var validationPassword = checkContrasena(password.value); //Validation, variable booleana para recibir la validacion de la contraseña
+  console.log(validacionName);
+  console.log(validationPassword); // Muestra en consola el valor de Validation
 };
 
 function checkUsername(valor) {}
