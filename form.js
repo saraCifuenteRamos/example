@@ -16,7 +16,9 @@ formulario.onsubmit = (e) => {
   console.log(validationPassword); // Muestra en consola el valor de Validation
 };
 
-function checkUsername(valor) {}
+function checkUsername(valor) {
+  console.log("soy sara");
+}
 
 //Function checkContrasena para validar el valor del input de contraseña
 function checkContrasena(valor) {
